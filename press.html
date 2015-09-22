@@ -24,10 +24,23 @@
 			  top: 30%;
 			  z-index: 2;
 			  margin: 0 auto;
-			  max-width: 720px;
-			  text-align: center;
+			  <!-- max-width: 720px;
+			  text-align: center; -->
 			  background-color: rgba(0,0,0,0.2);
 			 color: #ffffff;	
+			}
+			
+			.elements-headings{
+				margin-top: 0px;
+			}
+			
+			.col-md-12 {
+				background-color: rgba(9, 36, 36, 0.5);
+			}
+			
+			.col-md-6{
+				width: 100%;
+				background-color: rgba(27, 110, 110, 0.5);
 			}
 			
 			.video {
@@ -43,6 +56,11 @@
 		</style>
     </head>
     <body>
+	
+	<video id="my-video" class="video" autoplay muted loop>
+		<source src="videos/bk_press.mp4" type="video/mp4">
+	</video>
+	
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -94,7 +112,7 @@
         </div>
       </div> -->
 
-      <div class="elements">
+      <div class="elements">	  
 
 			  <div class="container">
 				<div class="row">
@@ -105,7 +123,7 @@
 					  </div>
 					</div>
 					<div class="col-md-12">
-					  <div class="col-md-3 col-sm-6">
+					  <div class="col-md-3 col-sm-6" style="width: 50%">
 						<h4>Nota en "La Razon"</h4>
 						<p>Una fusión de indie rock y pop con folklore boliviano es la propuesta de Aguayo que lanzó su primer sencillo Al borde del volcán en ritmo de tobas y que el grupo está promocionando. “En dos semanas más sale nuestro videoclip y se podrá ver en YouTube”, comentó Álvaro Villarroel, vocalista y guitarrista de la agrupación.
 
@@ -119,7 +137,7 @@
 							</a>
 						</p>	
 					  </div>  
-					  <div class="col-md-3 col-sm-6">
+					  <div class="col-md-3 col-sm-6" style="width: 50%">
 						<h4>Nota en "La Caverna (Mexico)"</h4>
 						<p>Aguayo propone una fusión totalmente nueva, un subgénero entre el Folklore y el Indie Rock&Pop, una fusión de ambos que da como resultado el género Indie Folk.
 
@@ -160,31 +178,7 @@
 
 
 	</div>	
-	
-	<video id="my-video" class="video" autoplay muted loop>
-		<source src="videos/bk_press.mp4" type="video/mp4">
-	</video>
-	
-     <div class="row">
-          <div class="2-comulns-text">
-            <div class="col-md-6">
-              <div class="elements-headings">
-                <h2>2 Columns Text</h2>
-              </div>
-            </div>
-            <div class="col-md-12">
-              <div class="col-md-6">
-              	<h4>Two-Column</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt urna quam, sed dignissim purus coect sectetur at. Aenean finibus, sem vestibulum.</p>
-              </div>  
-              <div class="col-md-6">
-              	<h4>Two-Column</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt urna quam, sed dignissim purus coect sectetur at. Aenean finibus, sem vestibulum.</p>
-              </div>          
-            </div>
-          </div>
-        </div>
-    </div>
+		
       <footer>
         <div class="container">
           <div class="row">
