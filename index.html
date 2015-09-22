@@ -9,27 +9,50 @@
         <title>Aguayo - Indie Folk</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- 
+    <!-- 
         Layer Template 
         http://www.templatemo.com/preview/templatemo_438_layer
-    	-->
+      -->
         
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css"> <!-- Font Awesome -->
         <link rel="stylesheet" href="css/wow-animate.css"> <!-- Wow Animate -->
         <link rel="stylesheet" href="css/templatemo-style.css">
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-		
-		<!--Slider -->
-		<link href='http://fonts.googleapis.com/css?family=Flamenco' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="wobbly_slide/css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="wobbly_slide/css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="wobbly_slide/css/slideshow.css" /> 
-		<script src="wobbly_slide/js/snap.svg-min.js"></script>
-		<script src="wobbly_slide/js/modernizr.custom.js"></script>
-		<!-- Slider --> 
-		
+    
+    <!--Slider -->
+    <link href='http://fonts.googleapis.com/css?family=Flamenco' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="wobbly_slide/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="wobbly_slide/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="wobbly_slide/css/slideshow.css" /> 
+    <script src="wobbly_slide/js/snap.svg-min.js"></script>
+    <script src="wobbly_slide/js/modernizr.custom.js"></script>
+    <!-- Slider --> 
+    
     </head>
+    <style>
+      #container2 {
+        /*width: 960px; */
+        position: relative;
+        margin:0 auto;
+        /*line-height: 1.4em;*/
+        width: 500px;
+        background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        @media only screen and (max-width: 479px){
+            #container2 { width: 90%; }
+        }
+
+        .table td {
+           text-align: center;   
+           border: none !important;
+        }
+
+        .slideshow {
+          overflow: inherit !important;
+        }
+    </style>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -62,8 +85,8 @@
                 </ul>
               </div>
               <!--/.navbar-collapse-->
-      		</div>
-      		<!--/.container-->
+          </div>
+          <!--/.container-->
       </nav>
           <!--/.navbar-->
     </div>
@@ -76,28 +99,38 @@
       <div class="bg__first templatemo-position-relative">
         <div class="container">
           <div class="templatemo-flexbox">
-            <div class="row">
-              <div class="col-md-4 col-sm-4 col-xs-12" >
-                <div class="left-image wow animated fadeInLeft">
-                  <!-- <img src="images/creative-writing.png" alt="creative writing" class="img-responsive"> -->
-                </div>
-              </div>
-              <div class="col-md-8 col-sm-8 col-xs-12"> 
-				
-                <div class="right-caption wow animated fadeInRight">
-					<div style="width: 500px;background-color: rgba(0, 0, 0, 0.5);text-align: center;">
-						  <h4 style="color: white;
-											 font-size: 32px;
-											 font-family: monospace;">Album debut</h4>
-						  <h2><span class="yellow">AWAYO</span> </h2>
-						  <p>........ Muy pronto
-						  </p>
-						  <div class="stroked-button"><a href="#" class="scroll-link" data-id="second-section">Read More</a></div><br>
-					</div>
-				  </div>
-                
-              </div>
-            </div>            
+              
+              <div class="col-md-12 col-sm-12 col-xs-12"> 
+        
+                  <div class="right-caption wow animated fadeInRight">
+                    <div id="container2">
+                            <table class="table">
+                              <tr>
+                                <td>
+                                    <h4 style="color: white;
+                                 font-size: 32px;
+                                 font-family: monospace;">Album debut</h4>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <h2><span class="yellow">AWAYO</span> </h2>
+                                </td>
+                              </tr> 
+                              <tr>
+                                <td>
+                                  <p>........ Muy pronto</p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="stroked-button"><a href="#" class="scroll-link" data-id="second-section">Read More</a></div><br>
+                                </td>
+                              </tr> 
+                            </table>
+                    </div>
+                  </div>                
+              </div>      
           </div>          
         </div>
         <div class="arrow text-center">
@@ -116,30 +149,30 @@
             <div class="sevice-items">
               <div class="col-md-3 col-sm-6 wow bounceInUp">
                 <a href="http://phonofile.link/aguayo-ep" target="_blank">
-					<div class="single-item">
-					  <i class="fa fa-music"></i>
-					  <h2>Aguayo EP On Line</h2>
-					  <!-- <p> </p>  -->
-					</div>
-				</a>
+          <div class="single-item">
+            <i class="fa fa-music"></i>
+            <h2>Aguayo EP On Line</h2>
+            <!-- <p> </p>  -->
+          </div>
+        </a>
               </div>              
               <div class="col-md-3 col-sm-6 wow bounceInUp">
-				<a href="">
-					<div class="single-item">
-					  <i class="fa fa-download"></i>
-					  <h2>Aguayo EP Download Code</h2>
-					</div>
-				</a>
+        <a href="">
+          <div class="single-item">
+            <i class="fa fa-download"></i>
+            <h2>Aguayo EP Download Code</h2>
+          </div>
+        </a>
               </div>
-			  <div class="col-md-3 col-sm-6 wow bounceInUp">
-					<div class="single-item">
-					  <i class="fa fa-headphones"></i>
-					  <h2>Cancion “Fragmentos”</h2>
-					  <audio id="play_song" src="songs/Fragmentos.mp3" controls>
-					  <p>Tu navegador no implementa el elemento audio.</p>
-					  </audio>
-					  <!-- <p>Change icons by <a rel="nofollow" href="http://fontawesome.info/font-awesome-icon-world-map/">Font Awesome</a> (version 4). Example: &lt;i class=&quot;fa fa-refresh&quot;&gt;&lt;/i&gt;</p> -->
-					</div>
+        <div class="col-md-3 col-sm-6 wow bounceInUp">
+          <div class="single-item">
+            <i class="fa fa-headphones"></i>
+            <h2>Cancion “Fragmentos”</h2>
+            <audio id="play_song" src="songs/Fragmentos.mp3" controls>
+            <p>Tu navegador no implementa el elemento audio.</p>
+            </audio>
+            <!-- <p>Change icons by <a rel="nofollow" href="http://fontawesome.info/font-awesome-icon-world-map/">Font Awesome</a> (version 4). Example: &lt;i class=&quot;fa fa-refresh&quot;&gt;&lt;/i&gt;</p> -->
+          </div>
               </div>
               <div class="col-md-3 col-sm-6 wow bounceInUp">
                 <div class="single-item">
@@ -168,17 +201,17 @@
               <div class="col-md-4 col-sm-6 col-xs-10 wow animated fadeInLeft" style="width: 100%;">
                 <div style="text-align: -webkit-center;">
                   <h2 style="
-								color: beige;
-								font-family: monospace;
-								">Videos</h2>
-                  <div class="line"></div>		
+                color: beige;
+                font-family: monospace;
+                ">Videos</h2>
+                  <div class="line"></div>    
 
-					<video width="100%" height="100%" controls>
-						<source src="videos/al_borde_del_volcan.mp4" type="video/mp4">
-						Your browser does not support the video tag.
-					</video>	
-					
-				</div>
+          <video width="100%" height="100%" controls>
+            <source src="videos/al_borde_del_volcan.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>  
+          
+        </div>
               </div>
             </div>
             <div class="row">
@@ -195,67 +228,65 @@
 
       <div class="bg__fourth">
         <div id="fourth-section">
-          <div class="container" style="margin-left: 0;">
-            <div class="row">
-              <div class="col-md-4 col-md-offset-8 col-sm-6 col-xs-10 col-xs-offset-1 wow animated fadeInLeft" style="margin-left: 0;width: 130%;height: 85%;">
-					<!-- SLIDER -->
-						<div class="slide_container" style="width: 100%;">
-							<div id="slideshow" class="slideshow">
-								<ul>
-									<li>
-										<div class="slide">
-											<img src="wobbly_slide/photos/1.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
-										</div>
-									</li>
-									<li>
-										<div class="slide">
-											<img src="wobbly_slide/photos/2.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
-										</div>
-									</li>
-									<li>
-										<div class="slide">
-											<img src="wobbly_slide/photos/3.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
-										</div>
-									</li>
-									<li>
-										<div class="slide">
-											<img src="wobbly_slide/photos/4.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
-										</div>
-									</li>
-									<li>
-										<div class="slide">
-											<img src="wobbly_slide/photos/5.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
-										</div>
-									</li>
-									<li>
-										<div class="slide">
-											<img src="wobbly_slide/photos/6.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
-										</div>
-									</li>
-									<li>
-										<div class="slide">
-											<img src="wobbly_slide/photos/7.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
-										</div>
-									</li>
-									<li>
-										<div class="slide">
-											<img src="wobbly_slide/photos/8.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
-										</div>
-									</li>
-									<li>
-										<div class="slide">
-											<img src="wobbly_slide/photos/9.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
-										</div>
-									</li>
-								</ul>			
-							</div>
-						</div>
-					<!-- SLIDER -->
+          <div class="container">
+            <div class="col-md-12 col-sm-12 col-xs-12 wow animated fadeInLeft">
+          <!-- SLIDER -->
+          <!-- Move "styles" added to "slide_container" to class or stylesheet -->
+            <div class="slide_container" style="width: 100%; height:0; margin-top:12%;">
+              <div id="slideshow" class="slideshow">
+                <ul>
+                  <li>
+                    <div class="slide">
+                      <img src="wobbly_slide/photos/1.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="slide">
+                      <img src="wobbly_slide/photos/2.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="slide">
+                      <img src="wobbly_slide/photos/3.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="slide">
+                      <img src="wobbly_slide/photos/4.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="slide">
+                      <img src="wobbly_slide/photos/5.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="slide">
+                      <img src="wobbly_slide/photos/6.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="slide">
+                      <img src="wobbly_slide/photos/7.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="slide">
+                      <img src="wobbly_slide/photos/8.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="slide">
+                      <img src="wobbly_slide/photos/9.jpg" alt="Aguayo" style="width: 100%;height: 100%;"/>
+                    </div>
+                  </li>
+                </ul>     
               </div>
             </div>
-            
+          <!-- SLIDER -->
+            </div>           
           </div>
-		  <div class="col-md-12">
+      <div class="col-md-12">
               <div class="fourth-arrow">
                 <a href="#" class="scroll-link btn btn-dark" data-id="fifth-section"><i class="fa fa-angle-down"></i></a>
               </div>
@@ -276,11 +307,11 @@
           </div>
           <form action="#" method="get">
           <div class="row">
-          	
+            
             <div class="col-md-8 col-md-offset-2 wow animated fadeInUp">
             
               <div class="submit-form">
-              	
+                
                 <div class="col-md-3">
                   <input name="name" type="text" id="name" placeholder="Your name..."/>
                 </div>
@@ -292,7 +323,7 @@
                 <div class="col-md-3">
                   <select name="gender" id="gender">
                     <option value="null">Gender</option>
-                  	<option value="Male">Male</option>
+                    <option value="Male">Male</option>
                     <option value="Female">Female</option>
                 </select>
                 </div>
@@ -300,7 +331,7 @@
                 <div class="col-md-3">
                   <select name="age" id="age">
                     <option value="null">Age</option>
-                  	<option value="18-24">18 - 24</option>
+                    <option value="18-24">18 - 24</option>
                     <option value="25-30">25 - 30</option>
                     <option value="31-40">31 - 40</option>
                     <option value="41-60">41 - 60</option>
@@ -318,8 +349,8 @@
                 <div class="col-md-4 col-md-offset-5 wow animated fadeInUp">
                     <input type="submit" value="Submit" class="templatemo-submit" />
                 </div>
-           	 
-          	</div>
+             
+            </div>
             
           </form>
         </div>
@@ -365,18 +396,18 @@
           offset:       100
         }).init();
     </script>
-	<!-- templatemo 438 layer -->
-	
-	<!-- Slider -->
+  <!-- templatemo 438 layer -->
+  
+  <!-- Slider -->
     <script src="wobbly_slide/js/classie.js"></script>
-		<script src="wobbly_slide/js/sliderFx.js"></script>
-		<script>
-			(function() {
-				new SliderFx( document.getElementById('slideshow'), {
-					easing : 'cubic-bezier(.8,0,.2,1)'
-				} );
-			})();
-		</script>
-	<!-- Slider -->
+    <script src="wobbly_slide/js/sliderFx.js"></script>
+    <script>
+      (function() {
+        new SliderFx( document.getElementById('slideshow'), {
+          easing : 'cubic-bezier(.8,0,.2,1)'
+        } );
+      })();
+    </script>
+  <!-- Slider -->
   </body>
 </html>
