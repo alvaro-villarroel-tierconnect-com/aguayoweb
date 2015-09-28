@@ -4,7 +4,7 @@
 */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
-
+.bandaregular-font {		font-family: BandaRegular !important;}
 .blue {
   color: #06C;
 }
@@ -144,7 +144,7 @@ body {
 }
 
 .nav a {
-  font-size: 15px;    font-family: monospace;
+  font-size: 15px;    font-family: BandaRegular;
   color: #FFFFFF!important;
   text-shadow: none!important;
   margin-left: 20px;  
